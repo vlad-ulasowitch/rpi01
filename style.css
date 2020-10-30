@@ -7,30 +7,32 @@ body {
 }
 
 nav {
-    height: 97px;
-
-    padding-left: 54px;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
     background-color: #373c3f;
-}
-
-nav > a {
-    margin-left: 54px;
-    flex: 0 0 auto;
     font-family: Montserrat;
-    font-size: 15px;
-    text-transform: uppercase;
-    text-decoration: none;
     color: #ebebeb;
 }
 
-nav > a:first-child {
+nav.full {
+    height: 97px;
+    padding-left: 54px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav.full > a {
+    margin-left: 54px;
+    flex: 0 0 auto;    
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav.full > a:first-child {
     margin-left: 0;
 }
 
-nav > a:visited, a:active {
+nav.full > a:visited, a:active {
     color: #ebebeb;
 }
 
