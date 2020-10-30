@@ -13,6 +13,29 @@ nav {
     color: #ebebeb;
 }
 
+nav.minified {
+    display: none;
+    height: 74px;
+    padding-left: 38px;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+nav.minified p {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav.minified > span {
+    display: flex;
+    flex: 0 0 82px;
+    align-items: center;
+    justify-content: center;
+    background-color: #202529;
+}
+
 nav.full {
     height: 97px;
     padding-left: 54px;
@@ -257,6 +280,14 @@ footer {
 }
 
 @media (max-width: 980px) {
+    nav.minified {
+        display: flex;
+    }
+
+    nav.full {
+        display: none;
+    }
+
     .header-content {
         margin-top: 115px;
         margin-left: 52px;
@@ -336,6 +367,21 @@ footer {
 }
 
 @media (max-width: 640px) {
+    nav.minified {
+        display: flex;
+        height: 37px;
+        font-size: 14px;
+    }
+
+    nav.minified > span {
+        display: flex;
+        flex: 0 0 41px;
+    }
+
+    nav.full {
+        display: none;
+    }
+
     .header-content {
         margin-top: 58px;
         margin-left: 26px;
