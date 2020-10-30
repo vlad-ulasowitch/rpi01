@@ -90,8 +90,10 @@ header {
 
 .first-row__text {
     padding-left: 88px;
-    padding-top: 112px;
+    display: flex;
     flex: 1 0 auto;
+    align-items: center;
+    justify-content: flex-start;
     background-color: #27212c;
     font-family: Montserrat;
     font-size: 30px;
@@ -99,9 +101,10 @@ header {
 }
 
 .first-row__arrow {
-    padding-left: 97px;
-    padding-top: 98px;
-    flex: 0 0 131px;
+    display: flex;
+    flex: 0 0 228px;
+    align-items: center;
+    justify-content: center;
     background-color: #bc3183;
     font-family: Quicksand;
     font-size: 50px;
@@ -119,9 +122,10 @@ header {
 }
 
 .second-row__arrow {
-    padding-top: 128px;
-    padding-left: 161px;
-    flex: 0 0 180px;
+    display: flex;
+    flex: 0 0 341px;
+    align-items: center;
+    justify-content: center;
     background-color: #5b0fa1;
     font-family: Quicksand;
     font-size: 50px;
